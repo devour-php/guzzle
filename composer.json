@@ -1,0 +1,21 @@
+{
+    "name": "devour-php/guzzle",
+    "type": "library",
+    "description": "An HTTP transport for the Devour framework.",
+
+    "require": {
+        "php": ">=5.4",
+        "devour-php/devour": "dev-master",
+        "guzzlehttp/guzzle": "~4.0@dev"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Devour\\Transporter\\": "src/"
+        }
+    }
+}
